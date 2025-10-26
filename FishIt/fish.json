@@ -3074,12 +3074,357 @@
   "chance":0.00016666666666666666,
   "icon":"rbxassetid://129118256536866",
   "description":""
+},
+  {
+  "weight":{
+  "min":4081,
+  "bigMin":7552,
+  "bigMax":9520,
+  "max":6821
+},
+  "sellPrice":66000,
+  "name":"Zombie Shark",
+  "tier":7,
+  "id":"297",
+  "chance":0.000004,
+  "icon":"rbxassetid://118840558184490",
+  "description":""
+},
+  {
+  "weight":{
+  "min":7.699999809265137,
+  "bigMin":11.5,
+  "bigMax":14.600000381469727,
+  "max":10.399999618530274
+},
+  "sellPrice":1180,
+  "name":"Spooky Koi Fish",
+  "tier":4,
+  "id":"298",
+  "chance":0.001,
+  "icon":"rbxassetid://71760590403389",
+  "description":""
+},
+  {
+  "weight":{
+  "min":111,
+  "bigMin":182,
+  "bigMax":226,
+  "max":158
+},
+  "sellPrice":9800,
+  "name":"Pumpkin Jellyfish",
+  "tier":5,
+  "id":"299",
+  "chance":0.0001,
+  "icon":"rbxassetid://110367503006917",
+  "description":""
+},
+  {
+  "weight":{
+  "min":1,
+  "bigMin":1.600000023841858,
+  "bigMax":2,
+  "max":1.2000000476837159
+},
+  "sellPrice":65,
+  "name":"Scary Clownfish",
+  "tier":2,
+  "id":"300",
+  "chance":0.02,
+  "icon":"rbxassetid://118734586270295",
+  "description":""
+},
+  {
+  "weight":{
+  "min":1,
+  "bigMin":1.600000023841858,
+  "bigMax":2,
+  "max":1.2000000476837159
+},
+  "sellPrice":65,
+  "name":"Dead Scary Clownfish",
+  "tier":2,
+  "id":"301",
+  "chance":0.01,
+  "icon":"rbxassetid://130326949380133",
+  "description":""
+},
+  {
+  "weight":{
+  "min":4081,
+  "bigMin":7552,
+  "bigMax":9520,
+  "max":6821
+},
+  "sellPrice":66000,
+  "name":"Dead Zombie Shark",
+  "tier":7,
+  "id":"302",
+  "chance":0.000002,
+  "icon":"rbxassetid://74502211632455",
+  "description":""
+},
+  {
+  "weight":{
+  "min":7.699999809265137,
+  "bigMin":11.5,
+  "bigMax":14.600000381469727,
+  "max":10.399999618530274
+},
+  "sellPrice":1180,
+  "name":"Dead Spooky Koi Fish",
+  "tier":4,
+  "id":"303",
+  "chance":0.0005,
+  "icon":"rbxassetid://94754294966347",
+  "description":""
+},
+  {
+  "weight":{
+  "min":21,
+  "bigMin":44,
+  "bigMax":58,
+  "max":35
+},
+  "sellPrice":2138,
+  "name":"Toxic Jellyfish",
+  "tier":4,
+  "id":"304",
+  "chance":0.0005,
+  "icon":"rbxassetid://128554473363426",
+  "description":""
+},
+  {
+  "weight":{
+  "min":0.30000001192092898,
+  "bigMin":1.100000023841858,
+  "bigMax":1.5,
+  "max":0.800000011920929
+},
+  "sellPrice":385,
+  "name":"Pumpkin Hermit Crab",
+  "tier":3,
+  "id":"305",
+  "chance":0.0033333333333333337,
+  "icon":"rbxassetid://128748768092216",
+  "description":""
+},
+  {
+  "weight":{
+  "min":1.2999999523162842,
+  "bigMin":2.0999999046325685,
+  "bigMax":2.5999999046325685,
+  "max":1.899999976158142
+},
+  "sellPrice":61,
+  "name":"Witch Fish",
+  "tier":2,
+  "id":"306",
+  "chance":0.02,
+  "icon":"rbxassetid://72770544702627",
+  "description":""
+},
+  {
+  "weight":{
+  "min":160,
+  "bigMin":293,
+  "bigMax":447,
+  "max":245
+},
+  "sellPrice":10250,
+  "name":"Pumpkin Carved Shark",
+  "tier":5,
+  "id":"307",
+  "chance":0.0001,
+  "icon":"rbxassetid://112304908829218",
+  "description":""
+},
+  {
+  "weight":{
+  "min":534,
+  "bigMin":1150,
+  "bigMax":1452,
+  "max":801
+},
+  "sellPrice":29500,
+  "name":"Frankenstein Longsnapper",
+  "tier":6,
+  "id":"308",
+  "chance":0.00002,
+  "icon":"rbxassetid://82325364028304",
+  "description":""
+},
+  {
+  "weight":{
+  "min":45.369998931884769,
+  "bigMin":102.06999969482422,
+  "bigMax":277.2699890136719,
+  "max":68.05000305175781
+},
+  "sellPrice":1980,
+  "name":"Pumpkin Angler Fish",
+  "tier":4,
+  "id":"309",
+  "chance":0.0006666666666666666,
+  "icon":"rbxassetid://123751784377518",
+  "description":""
+},
+  {
+  "weight":{
+  "min":3.799999952316284,
+  "bigMin":8.699999809265137,
+  "bigMax":11,
+  "max":5.800000190734863
+},
+  "sellPrice":435,
+  "name":"Baby Pumpkin Shark",
+  "tier":3,
+  "id":"310",
+  "chance":0.0033333333333333337,
+  "icon":"rbxassetid://92277291116292",
+  "description":""
+},
+  {
+  "weight":{
+  "min":16,
+  "bigMin":26,
+  "bigMax":32,
+  "max":22
+},
+  "sellPrice":4600,
+  "name":"Wizard Stingray",
+  "tier":5,
+  "id":"311",
+  "chance":0.0002,
+  "icon":"rbxassetid://102291521716919",
+  "description":""
+},
+  {
+  "weight":{
+  "min":0.33000001311302187,
+  "bigMin":0.6299999952316284,
+  "bigMax":0.9100000262260437,
+  "max":0.47999998927116396
+},
+  "sellPrice":65,
+  "name":"Pumpkin Butterfly Fish",
+  "tier":2,
+  "id":"312",
+  "chance":0.02,
+  "icon":"rbxassetid://129107539280642",
+  "description":""
+},
+  {
+  "weight":{
+  "min":0.6000000238418579,
+  "bigMin":1.399999976158142,
+  "bigMax":1.899999976158142,
+  "max":1.2000000476837159
+},
+  "sellPrice":68,
+  "name":"Ghost Spiralfish",
+  "tier":2,
+  "id":"313",
+  "chance":0.02,
+  "icon":"rbxassetid://131024392032651",
+  "description":""
+},
+  {
+  "weight":{
+  "min":86,
+  "bigMin":140,
+  "bigMax":160,
+  "max":110
+},
+  "sellPrice":27600,
+  "name":"Pumpkin Ray",
+  "tier":6,
+  "id":"314",
+  "chance":0.00002,
+  "icon":"rbxassetid://103346973064613",
+  "description":""
+},
+  {
+  "weight":{
+  "min":2.4000000953674318,
+  "bigMin":4.099999904632568,
+  "bigMax":4.900000095367432,
+  "max":3.5999999046325685
+},
+  "sellPrice":22,
+  "name":"Mossy Vampire Fish",
+  "tier":1,
+  "id":"315",
+  "chance":0.25,
+  "icon":"rbxassetid://123289074389407",
+  "description":""
+},
+  {
+  "weight":{
+  "min":1351,
+  "bigMin":2441,
+  "bigMax":3215,
+  "max":2027
+},
+  "sellPrice":54000,
+  "name":"Dark Pumpkin Appafish",
+  "tier":6,
+  "id":"316",
+  "chance":0.00001,
+  "icon":"rbxassetid://128070497580785",
+  "description":""
+},
+  {
+  "weight":{
+  "min":233,
+  "bigMin":342,
+  "bigMax":405,
+  "max":279
+},
+  "sellPrice":3900,
+  "name":"Pumpkin StoneTurtle",
+  "tier":5,
+  "id":"317",
+  "chance":0.0002,
+  "icon":"rbxassetid://119502983826514",
+  "description":""
+},
+  {
+  "weight":{
+  "min":1.2000000476837159,
+  "bigMin":2.299999952316284,
+  "bigMax":3.0999999046325685,
+  "max":2
+},
+  "sellPrice":18,
+  "name":"Spooky Peafish",
+  "tier":1,
+  "id":"318",
+  "chance":0.5,
+  "icon":"rbxassetid://126789494167977",
+  "description":""
+},
+  {
+  "weight":{
+  "min":305000,
+  "bigMin":395000,
+  "bigMax":450000,
+  "max":365000
+},
+  "sellPrice":345000,
+  "name":"Zombie Megalodon",
+  "tier":7,
+  "id":"319",
+  "chance":2.5e-7,
+  "icon":"rbxassetid://110861329686146",
+  "description":""
 }
 ],
   "metadata":{
   "format_version":"1.0",
   "game_name":"Fish-It",
-  "total_fish":205,
-  "extracted_at":"2025-10-17T03:59:46Z"
+  "total_fish":228,
+  "extracted_at":"2025-10-26T14:35:50Z"
 }
 }
