@@ -2152,7 +2152,7 @@
   "bigMax":2810,
   "max":1828
 },
-  "sellPrice":88500,
+  "sellPrice":92500,
   "name":"Eerie Shark",
   "tier":7,
   "id":"201",
@@ -3419,12 +3419,147 @@
   "chance":2.5e-7,
   "icon":"rbxassetid://110861329686146",
   "description":""
+},
+  {
+  "weight":{
+  "min":5.300000190734863,
+  "bigMin":7.800000190734863,
+  "bigMax":9.199999809265137,
+  "max":7
+},
+  "sellPrice":65,
+  "name":"Candy Corn Eel",
+  "tier":2,
+  "id":"333",
+  "chance":0.02,
+  "icon":"rbxassetid://93259170550129",
+  "description":""
+},
+  {
+  "weight":{
+  "min":60,
+  "bigMin":90,
+  "bigMax":110,
+  "max":80
+},
+  "sellPrice":11111,
+  "name":"Ghastly Crab",
+  "tier":5,
+  "id":"334",
+  "chance":0.0001,
+  "icon":"rbxassetid://76282468756263",
+  "description":""
+},
+  {
+  "weight":{
+  "min":14,
+  "bigMin":20,
+  "bigMax":24,
+  "max":18
+},
+  "sellPrice":575,
+  "name":"Witch Koi Fish",
+  "tier":3,
+  "id":"335",
+  "chance":0.002,
+  "icon":"rbxassetid://121441191255890",
+  "description":""
+},
+  {
+  "weight":{
+  "min":26666,
+  "bigMin":41666,
+  "bigMax":47474,
+  "max":36666
+},
+  "sellPrice":100000,
+  "name":"Hammerhead Mummy",
+  "tier":6,
+  "id":"336",
+  "chance":0.000004081632653061224,
+  "icon":"rbxassetid://115062339542534",
+  "description":""
+},
+  {
+  "weight":{
+  "min":2,
+  "bigMin":4.199999809265137,
+  "bigMax":4.800000190734863,
+  "max":3.5999999046325685
+},
+  "sellPrice":1125,
+  "name":"Wraithfin Abyssal",
+  "tier":4,
+  "id":"337",
+  "chance":0.001,
+  "icon":"rbxassetid://127594101212560",
+  "description":""
+},
+  {
+  "weight":{
+  "min":37,
+  "bigMin":48,
+  "bigMax":55,
+  "max":44
+},
+  "sellPrice":4266,
+  "name":"Ghastly Hermit Crab",
+  "tier":5,
+  "id":"338",
+  "chance":0.0002,
+  "icon":"rbxassetid://137125780150376",
+  "description":""
+},
+  {
+  "weight":{
+  "min":339,
+  "bigMin":620,
+  "bigMax":700,
+  "max":509
+},
+  "sellPrice":135000,
+  "name":"Skeleton Narwhal",
+  "tier":7,
+  "id":"339",
+  "chance":0.000002,
+  "icon":"rbxassetid://98866390921435",
+  "description":""
+},
+  {
+  "weight":{
+  "min":2013,
+  "bigMin":222222,
+  "bigMax":233333,
+  "max":201300
+},
+  "sellPrice":0,
+  "name":"Wild Serpent",
+  "tier":7,
+  "id":"340",
+  "chance":0.000001,
+  "icon":"rbxassetid://105102846577855",
+  "description":""
+},
+  {
+  "weight":{
+  "min":2015,
+  "bigMin":222222,
+  "bigMax":255555,
+  "max":201500
+},
+  "sellPrice":0,
+  "name":"Talon Serpent",
+  "tier":7,
+  "id":"341",
+  "chance":0.000001,
+  "icon":"rbxassetid://108665275325646",
+  "description":""
 }
 ],
   "metadata":{
   "format_version":"1.0",
   "game_name":"Fish-It",
-  "total_fish":228,
-  "extracted_at":"2025-10-26T14:35:50Z"
+  "total_fish":237,
+  "extracted_at":"2025-10-27T09:22:27Z"
 }
 }
