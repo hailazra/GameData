@@ -1,0 +1,247 @@
+
+
+
+
+
+
+local HttpService = game:GetService("HttpService")
+
+local Preprocessor = {}
+
+
+local CFG = {
+    THUMB_SIZE = "420x420",
+    BATCH_SIZE = 30,
+    BATCH_DELAY = 0.3,
+    OUTPUT_FILE = "fish_data_processed.json"
+}
+
+
+local requestFn = (function()
+    if syn and type(syn.request) == "function" then return syn.request end
+    if http and type(http.request) == "function" then return http.request end
+    if type(http_request) == "function" then return http_request end
+    if type(request) == "function" then return request end
+    if fluxus and type(fluxus.request) == "function" then return fluxus.request end
+    return nil
+end)()
+
+local function httpGet(url)
+    if not requestFn then return nil, "no_http" end
+    
+    local ok, res = pcall(requestFn, {
+        Url = url,
+        Method = "GET",
+        Headers = {
+            ["User-Agent"] = "Mozilla/5.0",
+            ["Accept"] = "application/json"
+        }
+    })
+    
+    if not ok then return nil, tostring(res) end
+    
+    local code = tonumber(res.StatusCode or res.Status) or 0
+    if code < 200 or code >= 300 then
+        return nil, "status_" .. code
+    end
+    
+    return res.Body, nil
+end
+
+
+local function extractAssetId(icon)
+    if not icon then return nil end
+    if type(icon) == "number" then return tostring(icon) end
+    if type(icon) == "string" then
+        if icon:match("^https?://") then return nil end
+        
+        local m = icon:match("rbxassetid://(%d+)")
+            or icon:match("rbxasset://(%d+)")
+            or icon:match("^(%d+)$")
+        return m
+    end
+    return nil
+end
+
+
+local function fetchThumbnailBatch(assetIds)
+    if #assetIds == 0 then return {} end
+    
+    local ids = table.concat(assetIds, ",")
+    local api = string.format(
+        "https://thumbnails.roblox.com/v1/assets?assetIds=%s&size=%s&format=Png&isCircular=false",
+        ids, CFG.THUMB_SIZE
+    )
+    
+    warn("[Preprocessor] Fetching batch:", #assetIds, "assets")
+    
+    local body, err = httpGet(api)
+    if not body then
+        warn("[Preprocessor] Fetch failed:", err)
+        return {}
+    end
+    
+    local ok, data = pcall(function() return HttpService:JSONDecode(body) end)
+    if not ok or not data or not data.data then
+        warn("[Preprocessor] Parse failed")
+        return {}
+    end
+    
+    local results = {}
+    for _, item in ipairs(data.data) do
+        if item.state == "Completed" and item.imageUrl then
+            results[tostring(item.targetId)] = item.imageUrl
+        end
+    end
+    
+    warn("[Preprocessor] Batch success:", #assetIds, "->", #data.data, "results")
+    return results
+end
+
+
+function Preprocessor:ProcessJSON(jsonUrl)
+    warn("=== STARTING JSON PRE-PROCESSING ===")
+    warn("Source:", jsonUrl)
+    
+    
+    warn("\n[1/4] Fetching JSON...")
+    local body, err = httpGet(jsonUrl)
+    if not body then
+        warn("❌ Failed to fetch JSON:", err)
+        return nil
+    end
+    
+    local ok, json = pcall(function() return HttpService:JSONDecode(body) end)
+    if not ok or type(json) ~= "table" then
+        warn("❌ Failed to parse JSON")
+        return nil
+    end
+    
+    warn("✅ JSON loaded")
+    
+    
+    warn("\n[2/4] Collecting assetIds...")
+    local assetIds = {}
+    local assetIdMap = {} 
+    
+    local items = json.items or json.fish or json.data or json
+    
+    for key, item in pairs(items) do
+        if type(item) == "table" then
+            local icon = item.icon or item.Icon or item.iconId or item.IconId
+            local assetId = extractAssetId(icon)
+            
+            if assetId then
+                table.insert(assetIds, assetId)
+                assetIdMap[key] = assetId
+            end
+        end
+    end
+    
+    warn("✅ Found", #assetIds, "assetIds to process")
+    
+    if #assetIds == 0 then
+        warn("⚠️  No assetIds found, nothing to process")
+        return json
+    end
+    
+    
+    warn("\n[3/4] Fetching thumbnails...")
+    local thumbnailCache = {}
+    local totalBatches = math.ceil(#assetIds / CFG.BATCH_SIZE)
+    
+    for i = 1, #assetIds, CFG.BATCH_SIZE do
+        local batch = {}
+        for j = i, math.min(i + CFG.BATCH_SIZE - 1, #assetIds) do
+            table.insert(batch, assetIds[j])
+        end
+        
+        local batchNum = math.ceil(i / CFG.BATCH_SIZE)
+        warn(string.format("\nBatch %d/%d (%d assets)...", batchNum, totalBatches, #batch))
+        
+        local results = fetchThumbnailBatch(batch)
+        
+        for assetId, url in pairs(results) do
+            thumbnailCache[assetId] = url
+        end
+        
+        if i + CFG.BATCH_SIZE < #assetIds then
+            wait(CFG.BATCH_DELAY)
+        end
+    end
+    
+    warn("\n✅ Fetched", table.concat(
+        (function()
+            local count = 0
+            for _ in pairs(thumbnailCache) do count = count + 1 end
+            return {tostring(count)}
+        end)()
+    ), "thumbnails")
+    
+    
+    warn("\n[4/4] Replacing assetIds with direct URLs...")
+    local replaced = 0
+    local failed = 0
+    
+    for key, assetId in pairs(assetIdMap) do
+        local item = items[key]
+        if item then
+            if thumbnailCache[assetId] then
+                item.icon = thumbnailCache[assetId]
+                replaced = replaced + 1
+            else
+                
+                item.icon = string.format(
+                    "https://assetdelivery.roblox.com/v1/asset/?id=%s",
+                    assetId
+                )
+                failed = failed + 1
+                warn("⚠️  No thumbnail for assetId:", assetId, "- using fallback")
+            end
+        end
+    end
+    
+    warn("\n✅ Replaced", replaced, "icons")
+    if failed > 0 then
+        warn("⚠️ ", failed, "icons using fallback URLs")
+    end
+    
+    warn("\n=== PRE-PROCESSING COMPLETE ===")
+    return json
+end
+
+
+function Preprocessor:ProcessAndSave(jsonUrl, outputPath)
+    local processed = self:ProcessJSON(jsonUrl)
+    if not processed then
+        return false
+    end
+    
+    outputPath = outputPath or CFG.OUTPUT_FILE
+    
+    if writefile then
+        local jsonStr = HttpService:JSONEncode(processed)
+        writefile(outputPath, jsonStr)
+        warn("\n💾 Saved to:", outputPath)
+        return true
+    else
+        warn("\n⚠️  writefile not available, showing JSON instead:")
+        warn("\n" .. HttpService:JSONEncode(processed))
+        return true
+    end
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+return Preprocessor
