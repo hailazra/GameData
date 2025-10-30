@@ -3522,15 +3522,15 @@
   "tier":7,
   "id":"339",
   "chance":0.000002,
-  "icon":"rbxassetid://98866390921435",
+  "icon":"rbxassetid://72248976760148",
   "description":""
 },
   {
   "weight":{
-  "min":2013,
-  "bigMin":222222,
-  "bigMax":233333,
-  "max":201300
+  "min":20000,
+  "bigMin":21111,
+  "bigMax":23333,
+  "max":20130
 },
   "sellPrice":0,
   "name":"Wild Serpent",
@@ -3542,10 +3542,10 @@
 },
   {
   "weight":{
-  "min":2015,
-  "bigMin":222222,
-  "bigMax":255555,
-  "max":201500
+  "min":20000,
+  "bigMin":21111,
+  "bigMax":22222,
+  "max":20150
 },
   "sellPrice":0,
   "name":"Talon Serpent",
@@ -3560,6 +3560,6 @@
   "format_version":"1.0",
   "game_name":"Fish-It",
   "total_fish":237,
-  "extracted_at":"2025-10-27T09:22:27Z"
+  "extracted_at":"2025-10-30T03:49:18Z"
 }
 }
