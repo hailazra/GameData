@@ -2377,7 +2377,7 @@
   "bigMax":450000,
   "max":365000
 },
-  "sellPrice":345000,
+  "sellPrice":355000,
   "name":"Megalodon",
   "tier":7,
   "id":"226",
@@ -2452,11 +2452,11 @@
   "bigMax":0.25,
   "max":0.15000000596046449
 },
-  "sellPrice":19,
+  "sellPrice":27,
   "name":"Old Boot",
   "tier":1,
   "id":"234",
-  "chance":0.3333333333333333,
+  "chance":0.04,
   "icon":"rbxassetid://128215101057455",
   "description":""
 },
@@ -2542,7 +2542,7 @@
   "bigMax":10548,
   "max":8593
 },
-  "sellPrice":89500,
+  "sellPrice":115500,
   "name":"Magma Shark",
   "tier":6,
   "id":"240",
@@ -2707,7 +2707,7 @@
   "bigMax":650000,
   "max":520000
 },
-  "sellPrice":325000,
+  "sellPrice":440000,
   "name":"Elshark Gran Maja",
   "tier":7,
   "id":"269",
@@ -3412,7 +3412,7 @@
   "bigMax":450000,
   "max":365000
 },
-  "sellPrice":345000,
+  "sellPrice":375000,
   "name":"Zombie Megalodon",
   "tier":7,
   "id":"319",
@@ -3521,7 +3521,7 @@
   "name":"Skeleton Narwhal",
   "tier":7,
   "id":"339",
-  "chance":0.000002,
+  "chance":0.0000016666666666666667,
   "icon":"rbxassetid://72248976760148",
   "description":""
 },
@@ -3554,12 +3554,537 @@
   "chance":0.000001,
   "icon":"rbxassetid://108665275325646",
   "description":""
+},
+  {
+  "weight":{
+  "min":362784,
+  "bigMin":472112,
+  "bigMax":525584,
+  "max":464176
+},
+  "sellPrice":540000,
+  "name":"Bloodmoon Whale",
+  "tier":7,
+  "id":"342",
+  "chance":2e-7,
+  "icon":"rbxassetid://113886190969614",
+  "description":""
+},
+  {
+  "weight":{
+  "min":260000,
+  "bigMin":338000,
+  "bigMax":381000,
+  "max":295000
+},
+  "sellPrice":100000,
+  "name":"Ancient Lochness Monster",
+  "tier":7,
+  "id":"345",
+  "chance":3.3333333333333337e-7,
+  "icon":"rbxassetid://122849883484708",
+  "description":""
+},
+  {
+  "weight":{
+  "min":2.200000047683716,
+  "bigMin":3.0999999046325685,
+  "bigMax":3.799999952316284,
+  "max":2.5999999046325685
+},
+  "sellPrice":4500,
+  "name":"Ancient Pufferfish",
+  "tier":5,
+  "id":"346",
+  "chance":0.0002,
+  "icon":"rbxassetid://94080226439959",
+  "description":""
+},
+  {
+  "weight":{
+  "min":4923,
+  "bigMin":6380,
+  "bigMax":7032,
+  "max":5700
+},
+  "sellPrice":95000,
+  "name":"Ancient Squid",
+  "tier":6,
+  "id":"347",
+  "chance":0.000011111111111111112,
+  "icon":"rbxassetid://103962641004338",
+  "description":""
+},
+  {
+  "weight":{
+  "min":75,
+  "bigMin":135,
+  "bigMax":221,
+  "max":105
+},
+  "sellPrice":3330,
+  "name":"Angrylion Fish",
+  "tier":4,
+  "id":"348",
+  "chance":0.0005,
+  "icon":"rbxassetid://135099762730215",
+  "description":""
+},
+  {
+  "weight":{
+  "min":0.03999999910593033,
+  "bigMin":0.10000000149011612,
+  "bigMax":0.11999999731779099,
+  "max":0.07999999821186066
+},
+  "sellPrice":79,
+  "name":"Baby Shrimp",
+  "tier":2,
+  "id":"349",
+  "chance":0.02,
+  "icon":"rbxassetid://100664684321181",
+  "description":""
+},
+  {
+  "weight":{
+  "min":1.100000023841858,
+  "bigMin":3.299999952316284,
+  "bigMax":4.400000095367432,
+  "max":2.200000047683716
+},
+  "sellPrice":1600,
+  "name":"Blobby Shieldfish",
+  "tier":4,
+  "id":"350",
+  "chance":0.001,
+  "icon":"rbxassetid://78472043782085",
+  "description":""
+},
+  {
+  "weight":{
+  "min":0.9100000262260437,
+  "bigMin":1.5199999809265137,
+  "bigMax":1.899999976158142,
+  "max":1.3700000047683716
+},
+  "sellPrice":450,
+  "name":"Boney Eel",
+  "tier":3,
+  "id":"351",
+  "chance":0.0033333333333333337,
+  "icon":"rbxassetid://85394749821305",
+  "description":""
+},
+  {
+  "weight":{
+  "min":2934,
+  "bigMin":3965,
+  "bigMax":4852,
+  "max":3371
+},
+  "sellPrice":135000,
+  "name":"Cavern Dweller",
+  "tier":6,
+  "id":"352",
+  "chance":0.000008333333333333334,
+  "icon":"rbxassetid://110427632040144",
+  "description":""
+},
+  {
+  "weight":{
+  "min":9,
+  "bigMin":19,
+  "bigMax":21,
+  "max":10
+},
+  "sellPrice":3333,
+  "name":"Dogfish",
+  "tier":4,
+  "id":"353",
+  "chance":0.0005,
+  "icon":"rbxassetid://124798847622372",
+  "description":""
+},
+  {
+  "weight":{
+  "min":0.05000000074505806,
+  "bigMin":0.11999999731779099,
+  "bigMax":0.17000000178813935,
+  "max":0.07999999821186066
+},
+  "sellPrice":93,
+  "name":"Doober Fish",
+  "tier":2,
+  "id":"354",
+  "chance":0.02,
+  "icon":"rbxassetid://104826665812171",
+  "description":""
+},
+  {
+  "weight":{
+  "min":8500,
+  "bigMin":13000,
+  "bigMax":16000,
+  "max":9500
+},
+  "sellPrice":140000,
+  "name":"Flatheaded Whale Shark",
+  "tier":6,
+  "id":"355",
+  "chance":0.000005,
+  "icon":"rbxassetid://73809550216371",
+  "description":""
+},
+  {
+  "weight":{
+  "min":647,
+  "bigMin":1052,
+  "bigMax":1273,
+  "max":853
+},
+  "sellPrice":15000,
+  "name":"Flying Manta",
+  "tier":5,
+  "id":"356",
+  "chance":0.00006666666666666667,
+  "icon":"rbxassetid://89252022082531",
+  "description":""
+},
+  {
+  "weight":{
+  "min":2222,
+  "bigMin":3838,
+  "bigMax":4545,
+  "max":3333
+},
+  "sellPrice":94000,
+  "name":"Fossilized Shark",
+  "tier":6,
+  "id":"357",
+  "chance":0.00001,
+  "icon":"rbxassetid://95113752323029",
+  "description":""
+},
+  {
+  "weight":{
+  "min":5.099999904632568,
+  "bigMin":6.800000190734863,
+  "bigMax":8.899999618530274,
+  "max":6.199999809265137
+},
+  "sellPrice":87,
+  "name":"Foxtrot Koanfish",
+  "tier":2,
+  "id":"358",
+  "chance":0.02,
+  "icon":"rbxassetid://115020830553781",
+  "description":""
+},
+  {
+  "weight":{
+  "min":10290,
+  "bigMin":19428,
+  "bigMax":25000,
+  "max":16431
+},
+  "sellPrice":190000,
+  "name":"Gladiator Shark",
+  "tier":7,
+  "id":"359",
+  "chance":0.000001,
+  "icon":"rbxassetid://131785277053113",
+  "description":""
+},
+  {
+  "weight":{
+  "min":2696,
+  "bigMin":3001,
+  "bigMax":3001,
+  "max":2696
+},
+  "sellPrice":4000,
+  "name":"King Frog",
+  "tier":4,
+  "id":"360",
+  "chance":0.0003332222592469177,
+  "icon":"rbxassetid://107539230294032",
+  "description":""
+},
+  {
+  "weight":{
+  "min":17,
+  "bigMin":28,
+  "bigMax":39,
+  "max":22
+},
+  "sellPrice":490,
+  "name":"Liar Nose Fish",
+  "tier":3,
+  "id":"361",
+  "chance":0.0033333333333333337,
+  "icon":"rbxassetid://122543032863960",
+  "description":""
+},
+  {
+  "weight":{
+  "min":5.5,
+  "bigMin":10.600000381469727,
+  "bigMax":14.100000381469727,
+  "max":9.199999809265137
+},
+  "sellPrice":490,
+  "name":"Lunar Crescent Fish",
+  "tier":3,
+  "id":"362",
+  "chance":0.0033333333333333337,
+  "icon":"rbxassetid://100769354091343",
+  "description":""
+},
+  {
+  "weight":{
+  "min":0.10999999940395355,
+  "bigMin":0.4300000071525574,
+  "bigMax":0.5799999833106995,
+  "max":0.2800000011920929
+},
+  "sellPrice":28,
+  "name":"Night Glider Fish",
+  "tier":1,
+  "id":"363",
+  "chance":0.5,
+  "icon":"rbxassetid://93808950497100",
+  "description":""
+},
+  {
+  "weight":{
+  "min":2.5,
+  "bigMin":3.5999999046325685,
+  "bigMax":4.199999809265137,
+  "max":3.0999999046325685
+},
+  "sellPrice":500,
+  "name":"Pirate Blue Lobster",
+  "tier":3,
+  "id":"364",
+  "chance":0.0033333333333333337,
+  "icon":"rbxassetid://136311954875874",
+  "description":""
+},
+  {
+  "weight":{
+  "min":5.800000190734863,
+  "bigMin":8.5,
+  "bigMax":9.5,
+  "max":7.199999809265137
+},
+  "sellPrice":8000,
+  "name":"Primal Axolotl",
+  "tier":5,
+  "id":"365",
+  "chance":0.0001,
+  "icon":"rbxassetid://127892490832450",
+  "description":""
+},
+  {
+  "weight":{
+  "min":15,
+  "bigMin":23,
+  "bigMax":31,
+  "max":19
+},
+  "sellPrice":5000,
+  "name":"Primal Lobster",
+  "tier":5,
+  "id":"366",
+  "chance":0.0002,
+  "icon":"rbxassetid://134352063604414",
+  "description":""
+},
+  {
+  "weight":{
+  "min":3900,
+  "bigMin":5800,
+  "bigMax":6008,
+  "max":4400
+},
+  "sellPrice":105000,
+  "name":"Primordial Octopus",
+  "tier":6,
+  "id":"367",
+  "chance":0.000006666666666666667,
+  "icon":"rbxassetid://102375471622278",
+  "description":""
+},
+  {
+  "weight":{
+  "min":0.6899999976158142,
+  "bigMin":1.5499999523162842,
+  "bigMax":1.7999999523162842,
+  "max":1.100000023841858
+},
+  "sellPrice":73,
+  "name":"Purp Blisfish",
+  "tier":1,
+  "id":"368",
+  "chance":0.02,
+  "icon":"rbxassetid://119189756405143",
+  "description":""
+},
+  {
+  "weight":{
+  "min":5.800000190734863,
+  "bigMin":8.5,
+  "bigMax":9.5,
+  "max":7.199999809265137
+},
+  "sellPrice":9600,
+  "name":"Runic Axolotl",
+  "tier":5,
+  "id":"369",
+  "chance":0.0001,
+  "icon":"rbxassetid://77334109072314",
+  "description":""
+},
+  {
+  "weight":{
+  "min":15,
+  "bigMin":23,
+  "bigMax":31,
+  "max":19
+},
+  "sellPrice":6000,
+  "name":"Runic Lobster",
+  "tier":5,
+  "id":"370",
+  "chance":0.0002,
+  "icon":"rbxassetid://75142053727355",
+  "description":""
+},
+  {
+  "weight":{
+  "min":12410,
+  "bigMin":15422,
+  "bigMax":17230,
+  "max":13615
+},
+  "sellPrice":78000,
+  "name":"Runic Sea Crustacean",
+  "tier":6,
+  "id":"371",
+  "chance":0.00002,
+  "icon":"rbxassetid://78787372617743",
+  "description":""
+},
+  {
+  "weight":{
+  "min":4923,
+  "bigMin":6380,
+  "bigMax":7032,
+  "max":5700
+},
+  "sellPrice":114000,
+  "name":"Runic Squid",
+  "tier":6,
+  "id":"372",
+  "chance":0.000011111111111111112,
+  "icon":"rbxassetid://76096764311236",
+  "description":""
+},
+  {
+  "weight":{
+  "min":12410,
+  "bigMin":15422,
+  "bigMax":17230,
+  "max":13615
+},
+  "sellPrice":65000,
+  "name":"Sea Crustacean",
+  "tier":6,
+  "id":"373",
+  "chance":0.00002,
+  "icon":"rbxassetid://115338077693444",
+  "description":""
+},
+  {
+  "weight":{
+  "min":1.5,
+  "bigMin":2.200000047683716,
+  "bigMax":3.4000000953674318,
+  "max":1.899999976158142
+},
+  "sellPrice":28,
+  "name":"Sona Fin Fish",
+  "tier":1,
+  "id":"374",
+  "chance":0.5,
+  "icon":"rbxassetid://123007215107239",
+  "description":""
+},
+  {
+  "weight":{
+  "min":3.700000047683716,
+  "bigMin":6.5,
+  "bigMax":9,
+  "max":4.800000190734863
+},
+  "sellPrice":82,
+  "name":"Thinkler Fish",
+  "tier":2,
+  "id":"375",
+  "chance":0.02,
+  "icon":"rbxassetid://109016567709360",
+  "description":""
+},
+  {
+  "weight":{
+  "min":52,
+  "bigMin":77,
+  "bigMax":94,
+  "max":65
+},
+  "sellPrice":520,
+  "name":"Toothy Fish",
+  "tier":3,
+  "id":"376",
+  "chance":0.0033333333333333337,
+  "icon":"rbxassetid://136937049057582",
+  "description":""
+},
+  {
+  "weight":{
+  "min":2,
+  "bigMin":7,
+  "bigMax":9,
+  "max":3
+},
+  "sellPrice":495,
+  "name":"Traffic Cone Fish",
+  "tier":3,
+  "id":"377",
+  "chance":0.0033333333333333337,
+  "icon":"rbxassetid://113998108351187",
+  "description":""
+},
+  {
+  "weight":{
+  "min":0.5199999809265137,
+  "bigMin":1.1699999570846558,
+  "bigMax":1.5,
+  "max":0.7799999713897705
+},
+  "sellPrice":85,
+  "name":"Wing Parrotfish",
+  "tier":2,
+  "id":"378",
+  "chance":0.02,
+  "icon":"rbxassetid://124783376175888",
+  "description":""
 }
 ],
   "metadata":{
   "format_version":"1.0",
   "game_name":"Fish-It",
-  "total_fish":237,
-  "extracted_at":"2025-10-30T03:49:18Z"
+  "total_fish":272,
+  "extracted_at":"2025-11-10T01:08:25Z"
 }
 }
