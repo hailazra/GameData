@@ -326,7 +326,7 @@
   "name":"Prismy Seahorse",
   "tier":5,
   "id":"35",
-  "chance":0.000011363636363636363,
+  "chance":0.0000125,
   "icon":"rbxassetid://105300029672501",
   "description":""
 },
@@ -881,7 +881,7 @@
   "name":"Korean Angelfish",
   "tier":3,
   "id":"72",
-  "chance":0.002857142857142857,
+  "chance":0.0033333333333333337,
   "icon":"rbxassetid://134484917450451",
   "description":""
 },
@@ -1361,7 +1361,7 @@
   "name":"Ballina Angelfish",
   "tier":3,
   "id":"119",
-  "chance":0.002857142857142857,
+  "chance":0.0033333333333333337,
   "icon":"rbxassetid://99236757363784",
   "description":""
 },
@@ -4079,12 +4079,207 @@
   "chance":0.02,
   "icon":"rbxassetid://124783376175888",
   "description":""
+},
+  {
+  "weight":{
+  "min":10500,
+  "bigMin":14500,
+  "bigMax":17200,
+  "max":11500
+},
+  "sellPrice":120000,
+  "name":"Cryoshade Glider",
+  "tier":7,
+  "id":"379",
+  "chance":0.000002222222222222222,
+  "icon":"rbxassetid://107008051913908",
+  "description":""
+},
+  {
+  "weight":{
+  "min":3800,
+  "bigMin":6800,
+  "bigMax":9300,
+  "max":5800
+},
+  "sellPrice":98000,
+  "name":"Plasma Serpent",
+  "tier":6,
+  "id":"380",
+  "chance":0.000004444444444444444,
+  "icon":"rbxassetid://129918689550932",
+  "description":""
+},
+  {
+  "weight":{
+  "min":86.30000305175781,
+  "bigMin":120.80000305175781,
+  "bigMax":160.5,
+  "max":110.0999984741211
+},
+  "sellPrice":33000,
+  "name":"Starlight Manta Ray",
+  "tier":6,
+  "id":"381",
+  "chance":0.0000125,
+  "icon":"rbxassetid://132585714096538",
+  "description":""
+},
+  {
+  "weight":{
+  "min":5.400000095367432,
+  "bigMin":8.5,
+  "bigMax":10.699999809265137,
+  "max":6.400000095367432
+},
+  "sellPrice":402,
+  "name":"Cute Octopus",
+  "tier":3,
+  "id":"382",
+  "chance":0.0033333333333333337,
+  "icon":"rbxassetid://101240566251348",
+  "description":""
+},
+  {
+  "weight":{
+  "min":5.400000095367432,
+  "bigMin":8.5,
+  "bigMax":10.699999809265137,
+  "max":6.400000095367432
+},
+  "sellPrice":1100,
+  "name":"Starlight Crab",
+  "tier":4,
+  "id":"383",
+  "chance":0.001,
+  "icon":"rbxassetid://116185409462303",
+  "description":""
+},
+  {
+  "weight":{
+  "min":12,
+  "bigMin":18,
+  "bigMax":24,
+  "max":16
+},
+  "sellPrice":410,
+  "name":"Freshwater Piranha",
+  "tier":3,
+  "id":"384",
+  "chance":0.0033333333333333337,
+  "icon":"rbxassetid://138330943047773",
+  "description":""
+},
+  {
+  "weight":{
+  "min":2.0999999046325685,
+  "bigMin":4,
+  "bigMax":6,
+  "max":3
+},
+  "sellPrice":410,
+  "name":"Parrot Blopfish",
+  "tier":3,
+  "id":"385",
+  "chance":0.0033333333333333337,
+  "icon":"rbxassetid://118232728651933",
+  "description":""
+},
+  {
+  "weight":{
+  "min":10.199999809265137,
+  "bigMin":13,
+  "bigMax":17,
+  "max":12
+},
+  "sellPrice":1150,
+  "name":"Iron Domefin",
+  "tier":4,
+  "id":"386",
+  "chance":0.001,
+  "icon":"rbxassetid://118826363919078",
+  "description":""
+},
+  {
+  "weight":{
+  "min":6,
+  "bigMin":8.399999618530274,
+  "bigMax":9.5,
+  "max":7
+},
+  "sellPrice":68,
+  "name":"Curious Garfish",
+  "tier":2,
+  "id":"387",
+  "chance":0.02,
+  "icon":"rbxassetid://110265016364630",
+  "description":""
+},
+  {
+  "weight":{
+  "min":6,
+  "bigMin":8.399999618530274,
+  "bigMax":9.5,
+  "max":7
+},
+  "sellPrice":120,
+  "name":"Glacierfin Snapper",
+  "tier":2,
+  "id":"388",
+  "chance":0.01,
+  "icon":"rbxassetid://122228140520012",
+  "description":""
+},
+  {
+  "weight":{
+  "min":2.299999952316284,
+  "bigMin":7.800000190734863,
+  "bigMax":9.399999618530274,
+  "max":4.699999809265137
+},
+  "sellPrice":3580,
+  "name":"Fish Fossil",
+  "tier":5,
+  "id":"389",
+  "chance":0.0002,
+  "icon":"rbxassetid://137098484897071",
+  "description":""
+},
+  {
+  "weight":{
+  "min":2.200000047683716,
+  "bigMin":4.5,
+  "bigMax":4.800000190734863,
+  "max":3.299999952316284
+},
+  "sellPrice":65,
+  "name":"Cypress Ratua",
+  "tier":2,
+  "id":"390",
+  "chance":0.02,
+  "icon":"rbxassetid://120326003916500",
+  "description":""
+},
+  {
+  "weight":{
+  "min":2.200000047683716,
+  "bigMin":4.5,
+  "bigMax":4.800000190734863,
+  "max":3.299999952316284
+},
+  "sellPrice":65,
+  "name":"Green Gillfish",
+  "tier":2,
+  "id":"391",
+  "chance":0.02,
+  "icon":"rbxassetid://138551053618250",
+  "description":""
 }
 ],
   "metadata":{
   "format_version":"1.0",
   "game_name":"Fish-It",
-  "total_fish":272,
-  "extracted_at":"2025-11-10T01:08:25Z"
+  "total_fish":285,
+  "extracted_at":"2025-11-17T13:13:49Z"
 }
 }
