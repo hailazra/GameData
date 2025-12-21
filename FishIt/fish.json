@@ -1277,10 +1277,10 @@
 },
   {
   "weight":{
-  "min":2.549999952316284,
-  "bigMin":5.75,
-  "bigMax":6.619999885559082,
-  "max":3.8299999237060549
+  "min":2.5,
+  "bigMin":4.099999904632568,
+  "bigMax":4.599999904632568,
+  "max":3.799999952316284
 },
   "sellPrice":24,
   "name":"Sail Tang",
@@ -5372,10 +5372,10 @@
 },
   {
   "weight":{
-  "min":0.10000000149011612,
-  "bigMin":0.6000000238418579,
-  "bigMax":1.100000023841858,
-  "max":0.4000000059604645
+  "min":0.6499999761581421,
+  "bigMin":0.949999988079071,
+  "bigMax":1.1200000047683716,
+  "max":0.8299999833106995
 },
   "sellPrice":250,
   "name":"Mistle Toe Seahorse",
@@ -5717,10 +5717,25 @@
 },
   {
   "weight":{
-  "min":0.10000000149011612,
-  "bigMin":0.699999988079071,
+  "min":250000,
+  "bigMin":320000,
+  "bigMax":350000,
+  "max":300000
+},
+  "sellPrice":320000,
+  "name":"Winter Frost Shark",
+  "tier":7,
+  "id":"509",
+  "chance":3.3333333333333337e-7,
+  "icon":"rbxassetid://139526906837161",
+  "description":""
+},
+  {
+  "weight":{
+  "min":0.4000000059604645,
+  "bigMin":1.2000000476837159,
   "bigMax":1.5,
-  "max":0.5
+  "max":1
 },
   "sellPrice":19000,
   "name":"Christmas Penguin",
@@ -5762,10 +5777,10 @@
 },
   {
   "weight":{
-  "min":0.20000000298023225,
-  "bigMin":2.200000047683716,
+  "min":2.5999999046325685,
+  "bigMin":3.299999952316284,
   "bigMax":3.5999999046325685,
-  "max":2
+  "max":3
 },
   "sellPrice":22,
   "name":"Reindeer Fish",
@@ -5879,12 +5894,192 @@
   "chance":0.016666666666666668,
   "icon":"rbxassetid://102456497850746",
   "description":""
+},
+  {
+  "weight":{
+  "min":360000,
+  "bigMin":460000,
+  "bigMax":500000,
+  "max":440000
+},
+  "sellPrice":400000,
+  "name":"Icebreaker Whale",
+  "tier":7,
+  "id":"539",
+  "chance":2.5e-7,
+  "icon":"rbxassetid://71622364014615",
+  "description":""
+},
+  {
+  "weight":{
+  "min":0.6000000238418579,
+  "bigMin":1.2000000476837159,
+  "bigMax":1.399999976158142,
+  "max":1
+},
+  "sellPrice":20,
+  "name":"Icy Fish",
+  "tier":1,
+  "id":"544",
+  "chance":0.1,
+  "icon":"rbxassetid://126013378974703",
+  "description":""
+},
+  {
+  "weight":{
+  "min":1.399999976158142,
+  "bigMin":2.4000000953674318,
+  "bigMax":2.9000000953674318,
+  "max":1.899999976158142
+},
+  "sellPrice":55,
+  "name":"Frostfin",
+  "tier":2,
+  "id":"545",
+  "chance":0.02,
+  "icon":"rbxassetid://133233732766081",
+  "description":""
+},
+  {
+  "weight":{
+  "min":2.200000047683716,
+  "bigMin":3.799999952316284,
+  "bigMax":4.599999904632568,
+  "max":2.9000000953674318
+},
+  "sellPrice":540,
+  "name":"Icy Depths Koi",
+  "tier":3,
+  "id":"546",
+  "chance":0.002,
+  "icon":"rbxassetid://136583285905378",
+  "description":""
+},
+  {
+  "weight":{
+  "min":4,
+  "bigMin":7,
+  "bigMax":8,
+  "max":5
+},
+  "sellPrice":320,
+  "name":"Frostwhisker",
+  "tier":3,
+  "id":"547",
+  "chance":0.0033333333333333337,
+  "icon":"rbxassetid://90675310008949",
+  "description":""
+},
+  {
+  "weight":{
+  "min":3.4000000953674318,
+  "bigMin":5.800000190734863,
+  "bigMax":6.900000095367432,
+  "max":4.400000095367432
+},
+  "sellPrice":1750,
+  "name":"Glacier Bass",
+  "tier":4,
+  "id":"548",
+  "chance":0.0006666666666666666,
+  "icon":"rbxassetid://113770781807048",
+  "description":""
+},
+  {
+  "weight":{
+  "min":3.299999952316284,
+  "bigMin":5.599999904632568,
+  "bigMax":6.699999809265137,
+  "max":4.300000190734863
+},
+  "sellPrice":5500,
+  "name":"Frost Crab",
+  "tier":5,
+  "id":"549",
+  "chance":0.0002,
+  "icon":"rbxassetid://75570847254834",
+  "description":""
+},
+  {
+  "weight":{
+  "min":9,
+  "bigMin":15,
+  "bigMax":18,
+  "max":11
+},
+  "sellPrice":7800,
+  "name":"Frostbite Bluefinn",
+  "tier":5,
+  "id":"550",
+  "chance":0.00014285714285714287,
+  "icon":"rbxassetid://97987635166000",
+  "description":""
+},
+  {
+  "weight":{
+  "min":6500,
+  "bigMin":9030,
+  "bigMax":10072,
+  "max":8500
+},
+  "sellPrice":65000,
+  "name":"Frostveil Ray",
+  "tier":6,
+  "id":"551",
+  "chance":0.000008,
+  "icon":"rbxassetid://134479103632927",
+  "description":""
+},
+  {
+  "weight":{
+  "min":13,
+  "bigMin":23,
+  "bigMax":27,
+  "max":17
+},
+  "sellPrice":31000,
+  "name":"Icy Swordfish",
+  "tier":6,
+  "id":"552",
+  "chance":0.00002,
+  "icon":"rbxassetid://130389891586520",
+  "description":""
+},
+  {
+  "weight":{
+  "min":2.5,
+  "bigMin":4.099999904632568,
+  "bigMax":4.599999904632568,
+  "max":3.799999952316284
+},
+  "sellPrice":55,
+  "name":"Frozen Tang",
+  "tier":1,
+  "id":"554",
+  "chance":0.016666666666666668,
+  "icon":"rbxassetid://115162562192398",
+  "description":""
+},
+  {
+  "weight":{
+  "min":0.5,
+  "bigMin":0.800000011920929,
+  "bigMax":1,
+  "max":0.6000000238418579
+},
+  "sellPrice":24,
+  "name":"Frozen ClownFish",
+  "tier":2,
+  "id":"555",
+  "chance":0.125,
+  "icon":"rbxassetid://127220528752397",
+  "description":""
 }
 ],
   "metadata":{
   "format_version":"1.0",
   "game_name":"Fish-It",
-  "total_fish":392,
-  "extracted_at":"2025-12-15T09:13:24Z"
+  "total_fish":405,
+  "extracted_at":"2025-12-21T09:03:24Z"
 }
 }
