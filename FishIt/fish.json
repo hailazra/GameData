@@ -6272,21 +6272,6 @@
 },
   {
   "weight":{
-  "min":0.46000000834465029,
-  "bigMin":0.9200000166893005,
-  "bigMax":1.149999976158142,
-  "max":0.7400000095367432
-},
-  "sellPrice":8300,
-  "name":"Blue Dumbo",
-  "tier":5,
-  "id":"596",
-  "chance":0.0001,
-  "icon":"rbxassetid://123269201591757",
-  "description":""
-},
-  {
-  "weight":{
   "min":1.2000000476837159,
   "bigMin":2,
   "bigMax":2.4000000953674318,
@@ -6418,36 +6403,6 @@
   "id":"605",
   "chance":0.001,
   "icon":"rbxassetid://117430572619627",
-  "description":""
-},
-  {
-  "weight":{
-  "min":0.46000000834465029,
-  "bigMin":0.9200000166893005,
-  "bigMax":1.149999976158142,
-  "max":0.7400000095367432
-},
-  "sellPrice":8300,
-  "name":"Pika Pika Dumbo",
-  "tier":5,
-  "id":"606",
-  "chance":0.0001,
-  "icon":"rbxassetid://88389653058386",
-  "description":""
-},
-  {
-  "weight":{
-  "min":0.46000000834465029,
-  "bigMin":0.9200000166893005,
-  "bigMax":1.149999976158142,
-  "max":0.7400000095367432
-},
-  "sellPrice":8300,
-  "name":"Pink Dumbo",
-  "tier":5,
-  "id":"607",
-  "chance":0.0001,
-  "icon":"rbxassetid://71719427391544",
   "description":""
 },
   {
@@ -6862,7 +6817,7 @@
   "bigMax":2.4000000953674318,
   "max":1.600000023841858
 },
-  "sellPrice":262222,
+  "sellPrice":29,
   "name":"Slipstream Fish",
   "tier":1,
   "id":"639",
@@ -7094,12 +7049,282 @@
   "chance":0.0005,
   "icon":"rbxassetid://93082721738870",
   "description":""
+},
+  {
+  "weight":{
+  "min":170000,
+  "bigMin":200000,
+  "bigMax":245000,
+  "max":190000
+},
+  "sellPrice":180000,
+  "name":"Viridis Lurker",
+  "tier":7,
+  "id":"660",
+  "chance":7.142857142857143e-7,
+  "icon":"rbxassetid://104425720050620",
+  "description":""
+},
+  {
+  "weight":{
+  "min":450000,
+  "bigMin":560000,
+  "bigMax":650000,
+  "max":520000
+},
+  "sellPrice":440000,
+  "name":"Elpirate Gran Maja",
+  "tier":7,
+  "id":"661",
+  "chance":2.5e-7,
+  "icon":"rbxassetid://131441237084542",
+  "description":""
+},
+  {
+  "weight":{
+  "min":2.5,
+  "bigMin":4.099999904632568,
+  "bigMax":4.699999809265137,
+  "max":3.700000047683716
+},
+  "sellPrice":26,
+  "name":"Lava Salmon",
+  "tier":1,
+  "id":"664",
+  "chance":0.1,
+  "icon":"rbxassetid://79641411212324",
+  "description":""
+},
+  {
+  "weight":{
+  "min":1.2000000476837159,
+  "bigMin":2,
+  "bigMax":2.5999999046325685,
+  "max":1.7999999523162842
+},
+  "sellPrice":22,
+  "name":"Lava Sharpshead",
+  "tier":1,
+  "id":"665",
+  "chance":0.25,
+  "icon":"rbxassetid://89228112328589",
+  "description":""
+},
+  {
+  "weight":{
+  "min":2.799999952316284,
+  "bigMin":3.799999952316284,
+  "bigMax":4.699999809265137,
+  "max":3.5
+},
+  "sellPrice":62,
+  "name":"Lava Sharpstooth",
+  "tier":2,
+  "id":"666",
+  "chance":0.02,
+  "icon":"rbxassetid://94620037530069",
+  "description":""
+},
+  {
+  "weight":{
+  "min":1.100000023841858,
+  "bigMin":1.7999999523162842,
+  "bigMax":2.5,
+  "max":1.600000023841858
+},
+  "sellPrice":62,
+  "name":"Lava Tailfish",
+  "tier":2,
+  "id":"667",
+  "chance":0.02,
+  "icon":"rbxassetid://123000937382176",
+  "description":""
+},
+  {
+  "weight":{
+  "min":5.400000095367432,
+  "bigMin":9.199999809265137,
+  "bigMax":11.5,
+  "max":8.600000381469727
+},
+  "sellPrice":340,
+  "name":"Magma Smeltfish",
+  "tier":3,
+  "id":"668",
+  "chance":0.0033333333333333337,
+  "icon":"rbxassetid://117811918877740",
+  "description":""
+},
+  {
+  "weight":{
+  "min":9.5,
+  "bigMin":11.5,
+  "bigMax":13.199999809265137,
+  "max":10.600000381469727
+},
+  "sellPrice":350,
+  "name":"Magma Tuna",
+  "tier":3,
+  "id":"669",
+  "chance":0.0033333333333333337,
+  "icon":"rbxassetid://77897164851693",
+  "description":""
+},
+  {
+  "weight":{
+  "min":10,
+  "bigMin":12.199999809265137,
+  "bigMax":14.5,
+  "max":11.300000190734864
+},
+  "sellPrice":1200,
+  "name":"Magmajaw",
+  "tier":4,
+  "id":"670",
+  "chance":0.001,
+  "icon":"rbxassetid://107440279014810",
+  "description":""
+},
+  {
+  "weight":{
+  "min":0.46000000834465029,
+  "bigMin":0.9200000166893005,
+  "bigMax":1.149999976158142,
+  "max":0.7400000095367432
+},
+  "sellPrice":1550,
+  "name":"Magma Pufferfish",
+  "tier":4,
+  "id":"671",
+  "chance":0.0006666666666666666,
+  "icon":"rbxassetid://83474197469521",
+  "description":""
+},
+  {
+  "weight":{
+  "min":45,
+  "bigMin":70,
+  "bigMax":82,
+  "max":65
+},
+  "sellPrice":6500,
+  "name":"Magma Piranha",
+  "tier":5,
+  "id":"672",
+  "chance":0.00016666666666666666,
+  "icon":"rbxassetid://89009107661308",
+  "description":""
+},
+  {
+  "weight":{
+  "min":35,
+  "bigMin":120,
+  "bigMax":140,
+  "max":110
+},
+  "sellPrice":17500,
+  "name":"Nine Tailed Fish",
+  "tier":5,
+  "id":"673",
+  "chance":0.00006666666666666667,
+  "icon":"rbxassetid://106272145126445",
+  "description":""
+},
+  {
+  "weight":{
+  "min":160,
+  "bigMin":280,
+  "bigMax":340,
+  "max":250
+},
+  "sellPrice":9500,
+  "name":"Magma Crab",
+  "tier":5,
+  "id":"674",
+  "chance":0.00011764705882352942,
+  "icon":"rbxassetid://71636708403455",
+  "description":""
+},
+  {
+  "weight":{
+  "min":320,
+  "bigMin":480,
+  "bigMax":600,
+  "max":450
+},
+  "sellPrice":29000,
+  "name":"Magma Ptychodus",
+  "tier":6,
+  "id":"675",
+  "chance":0.000018181818181818183,
+  "icon":"rbxassetid://135499379743383",
+  "description":""
+},
+  {
+  "weight":{
+  "min":630000,
+  "bigMin":770000,
+  "bigMax":860000,
+  "max":740000
+},
+  "sellPrice":400000,
+  "name":"Ancient Magma Whale",
+  "tier":7,
+  "id":"676",
+  "chance":2e-7,
+  "icon":"rbxassetid://79419619363511",
+  "description":""
+},
+  {
+  "weight":{
+  "min":55,
+  "bigMin":90,
+  "bigMax":110,
+  "max":80
+},
+  "sellPrice":31000,
+  "name":"Magma Swordfish",
+  "tier":6,
+  "id":"683",
+  "chance":0.00002,
+  "icon":"rbxassetid://90983146928602",
+  "description":""
+},
+  {
+  "weight":{
+  "min":2.5,
+  "bigMin":4.099999904632568,
+  "bigMax":4.699999809265137,
+  "max":3.700000047683716
+},
+  "sellPrice":360,
+  "name":"Magma Eel",
+  "tier":3,
+  "id":"684",
+  "chance":0.0033333333333333337,
+  "icon":"rbxassetid://99026222220506",
+  "description":""
+},
+  {
+  "weight":{
+  "min":1.2000000476837159,
+  "bigMin":1.7000000476837159,
+  "bigMax":2.299999952316284,
+  "max":1.5
+},
+  "sellPrice":22,
+  "name":"Magma Tail Fish",
+  "tier":1,
+  "id":"685",
+  "chance":0.25,
+  "icon":"rbxassetid://105365526274853",
+  "description":""
 }
 ],
   "metadata":{
   "format_version":"1.0",
   "game_name":"Fish-It",
-  "total_fish":473,
-  "extracted_at":"2026-01-18T04:45:59Z"
+  "total_fish":488,
+  "extracted_at":"2026-02-01T12:21:08Z"
 }
 }
