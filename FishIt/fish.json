@@ -998,7 +998,7 @@
   "max":4.199999809265137
 },
   "sellPrice":347,
-  "name":"Rockform Cardianl",
+  "name":"Rockform Cardinal",
   "tier":3,
   "id":"88",
   "chance":0.004,
@@ -7118,7 +7118,7 @@
   "max":3.5
 },
   "sellPrice":62,
-  "name":"Lava Sharpstooth",
+  "name":"Lava Sharptooth",
   "tier":2,
   "id":"666",
   "chance":0.02,
@@ -7319,12 +7319,207 @@
   "chance":0.25,
   "icon":"rbxassetid://105365526274853",
   "description":""
+},
+  {
+  "weight":{
+  "min":0.2199999988079071,
+  "bigMin":0.550000011920929,
+  "bigMax":0.7200000286102295,
+  "max":0.46000000834465029
+},
+  "sellPrice":24,
+  "name":"Emerald Herring",
+  "tier":1,
+  "id":"686",
+  "chance":0.08333333333333333,
+  "icon":"rbxassetid://124632756937629",
+  "description":""
+},
+  {
+  "weight":{
+  "min":0.4000000059604645,
+  "bigMin":1,
+  "bigMax":1.2000000476837159,
+  "max":0.800000011920929
+},
+  "sellPrice":22,
+  "name":"Gold Bass",
+  "tier":1,
+  "id":"687",
+  "chance":0.125,
+  "icon":"rbxassetid://72070309541128",
+  "description":""
+},
+  {
+  "weight":{
+  "min":1.2000000476837159,
+  "bigMin":1.7000000476837159,
+  "bigMax":2.200000047683716,
+  "max":1.5
+},
+  "sellPrice":100,
+  "name":"Pink Crystal Eel",
+  "tier":2,
+  "id":"688",
+  "chance":0.01,
+  "icon":"rbxassetid://84466040543311",
+  "description":""
+},
+  {
+  "weight":{
+  "min":1.5,
+  "bigMin":2.200000047683716,
+  "bigMax":2.5999999046325685,
+  "max":1.899999976158142
+},
+  "sellPrice":70,
+  "name":"Zapfin Fish",
+  "tier":2,
+  "id":"689",
+  "chance":0.014285714285714286,
+  "icon":"rbxassetid://91792071018514",
+  "description":""
+},
+  {
+  "weight":{
+  "min":2.299999952316284,
+  "bigMin":4.099999904632568,
+  "bigMax":4.800000190734863,
+  "max":3.5
+},
+  "sellPrice":350,
+  "name":"Crystal Oni Fish",
+  "tier":3,
+  "id":"690",
+  "chance":0.0033333333333333337,
+  "icon":"rbxassetid://138465254082175",
+  "description":""
+},
+  {
+  "weight":{
+  "min":5.300000190734863,
+  "bigMin":7.800000190734863,
+  "bigMax":9.100000381469727,
+  "max":6.5
+},
+  "sellPrice":340,
+  "name":"Snappy Tooth Fish",
+  "tier":3,
+  "id":"691",
+  "chance":0.0033333333333333337,
+  "icon":"rbxassetid://111566627930567",
+  "description":""
+},
+  {
+  "weight":{
+  "min":9.300000190734864,
+  "bigMin":12.199999809265137,
+  "bigMax":14.5,
+  "max":11.699999809265137
+},
+  "sellPrice":1400,
+  "name":"Crystalized Crab",
+  "tier":4,
+  "id":"692",
+  "chance":0.001,
+  "icon":"rbxassetid://102239856997450",
+  "description":""
+},
+  {
+  "weight":{
+  "min":25,
+  "bigMin":32,
+  "bigMax":38,
+  "max":29
+},
+  "sellPrice":4500,
+  "name":"Crystal Octopus",
+  "tier":5,
+  "id":"693",
+  "chance":0.0002,
+  "icon":"rbxassetid://123563903708414",
+  "description":""
+},
+  {
+  "weight":{
+  "min":52,
+  "bigMin":92,
+  "bigMax":116,
+  "max":85
+},
+  "sellPrice":13000,
+  "name":"Neonite Fish",
+  "tier":5,
+  "id":"694",
+  "chance":0.00009000090000900009,
+  "icon":"rbxassetid://121826681834360",
+  "description":""
+},
+  {
+  "weight":{
+  "min":898,
+  "bigMin":1661,
+  "bigMax":2222,
+  "max":1414
+},
+  "sellPrice":55000,
+  "name":"Runic Abyssal Shark",
+  "tier":6,
+  "id":"695",
+  "chance":0.000008333333333333334,
+  "icon":"rbxassetid://89862768656792",
+  "description":""
+},
+  {
+  "weight":{
+  "min":0.4000000059604645,
+  "bigMin":1,
+  "bigMax":1.2000000476837159,
+  "max":0.800000011920929
+},
+  "sellPrice":22,
+  "name":"Cold Blue Vinny",
+  "tier":1,
+  "id":"703",
+  "chance":0.125,
+  "icon":"rbxassetid://105788855924839",
+  "description":""
+},
+  {
+  "weight":{
+  "min":470,
+  "bigMin":710,
+  "bigMax":1150,
+  "max":680
+},
+  "sellPrice":38000,
+  "name":"Runebound Crocodile",
+  "tier":6,
+  "id":"705",
+  "chance":0.000016666666666666669,
+  "icon":"rbxassetid://139786810555919",
+  "description":""
+},
+  {
+  "weight":{
+  "min":610000,
+  "bigMin":704000,
+  "bigMax":910000,
+  "max":730000
+},
+  "sellPrice":355000,
+  "name":"Rainbow Comet Shark",
+  "tier":7,
+  "id":"706",
+  "chance":2e-7,
+  "icon":"rbxassetid://121195842662298",
+  "description":""
 }
 ],
   "metadata":{
   "format_version":"1.0",
   "game_name":"Fish-It",
-  "total_fish":488,
-  "extracted_at":"2026-02-01T12:21:08Z"
+  "total_fish":501,
+  "extracted_at":"2026-02-08T08:13:24Z"
 }
 }
