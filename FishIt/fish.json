@@ -557,16 +557,16 @@
 },
   {
   "weight":{
-  "min":2.700000047683716,
-  "bigMin":4.199999809265137,
-  "bigMax":5.300000190734863,
-  "max":3.200000047683716
+  "min":1.600000023841858,
+  "bigMin":2.200000047683716,
+  "bigMax":2.4000000953674318,
+  "max":2
 },
   "sellPrice":19,
   "name":"Volcanic Basslet",
   "tier":1,
   "id":"51",
-  "chance":0.5,
+  "chance":0.25,
   "icon":"rbxassetid://73441603866106",
   "description":""
 },
@@ -1697,10 +1697,10 @@
 },
   {
   "weight":{
-  "min":180.05999755859376,
-  "bigMin":405.1400146484375,
-  "bigMax":1924.3199462890626,
-  "max":270.0899963378906
+  "min":130,
+  "bigMin":180,
+  "bigMax":250,
+  "max":160
 },
   "sellPrice":1840,
   "name":"Fangtooth",
@@ -2407,7 +2407,7 @@
   "bigMax":381000,
   "max":295000
 },
-  "sellPrice":330000,
+  "sellPrice":310000,
   "name":"Lochness Monster",
   "tier":7,
   "id":"228",
@@ -7514,12 +7514,492 @@
   "chance":2e-7,
   "icon":"rbxassetid://121195842662298",
   "description":""
+},
+  {
+  "weight":{
+  "min":0,
+  "bigMin":0,
+  "bigMax":0,
+  "max":0
+},
+  "sellPrice":10,
+  "name":"Red Rose",
+  "tier":5,
+  "id":"712",
+  "chance":0.00012858428700012858,
+  "icon":"rbxassetid://102128709226247",
+  "description":"A single rose!"
+},
+  {
+  "weight":{
+  "min":0,
+  "bigMin":0,
+  "bigMax":0,
+  "max":0
+},
+  "sellPrice":100,
+  "name":"Rose Bouquet",
+  "tier":6,
+  "id":"713",
+  "chance":0.000012857271429857156,
+  "icon":"rbxassetid://92211813479323",
+  "description":"A bouqet of roses for that special someone!"
+},
+  {
+  "weight":{
+  "min":5.900000095367432,
+  "bigMin":7.800000190734863,
+  "bigMax":8.5,
+  "max":7.099999904632568
+},
+  "sellPrice":5500,
+  "name":"Heart Octopus",
+  "tier":5,
+  "id":"715",
+  "chance":0.00015384615384615385,
+  "icon":"rbxassetid://119691319500998",
+  "description":""
+},
+  {
+  "weight":{
+  "min":9.399999618530274,
+  "bigMin":13.100000381469727,
+  "bigMax":14.600000381469727,
+  "max":12.199999809265137
+},
+  "sellPrice":1500,
+  "name":"Cutsie Fish",
+  "tier":4,
+  "id":"716",
+  "chance":0.0006666666666666666,
+  "icon":"rbxassetid://100031149264544",
+  "description":""
+},
+  {
+  "weight":{
+  "min":2.5999999046325685,
+  "bigMin":3.5999999046325685,
+  "bigMax":4.400000095367432,
+  "max":3.200000047683716
+},
+  "sellPrice":60,
+  "name":"Gummy Fish",
+  "tier":2,
+  "id":"717",
+  "chance":0.016666666666666668,
+  "icon":"rbxassetid://70815484549617",
+  "description":""
+},
+  {
+  "weight":{
+  "min":1.399999976158142,
+  "bigMin":2.0999999046325685,
+  "bigMax":2.700000047683716,
+  "max":1.899999976158142
+},
+  "sellPrice":55,
+  "name":"Peach Tuna",
+  "tier":2,
+  "id":"718",
+  "chance":0.016666666666666668,
+  "icon":"rbxassetid://100989122092413",
+  "description":""
+},
+  {
+  "weight":{
+  "min":0.5,
+  "bigMin":1.2000000476837159,
+  "bigMax":1.600000023841858,
+  "max":1
+},
+  "sellPrice":22,
+  "name":"Peach Clownfish",
+  "tier":1,
+  "id":"719",
+  "chance":0.16666666666666667,
+  "icon":"rbxassetid://97474102778371",
+  "description":""
+},
+  {
+  "weight":{
+  "min":0.3199999928474426,
+  "bigMin":0.75,
+  "bigMax":1.0800000429153443,
+  "max":0.6100000143051148
+},
+  "sellPrice":9000,
+  "name":"Strawberry Seahorse",
+  "tier":5,
+  "id":"720",
+  "chance":0.0001,
+  "icon":"rbxassetid://89093705069462",
+  "description":""
+},
+  {
+  "weight":{
+  "min":0.20999999344348908,
+  "bigMin":0.6100000143051148,
+  "bigMax":0.9700000286102295,
+  "max":0.46000000834465029
+},
+  "sellPrice":1500,
+  "name":"Valentine Eel",
+  "tier":4,
+  "id":"721",
+  "chance":0.0006666666666666666,
+  "icon":"rbxassetid://76073990516195",
+  "description":""
+},
+  {
+  "weight":{
+  "min":350,
+  "bigMin":490,
+  "bigMax":570,
+  "max":440
+},
+  "sellPrice":34000,
+  "name":"Rose Swordfish",
+  "tier":6,
+  "id":"722",
+  "chance":0.000018181818181818183,
+  "icon":"rbxassetid://86166680805440",
+  "description":""
+},
+  {
+  "weight":{
+  "min":16,
+  "bigMin":24,
+  "bigMax":31,
+  "max":22
+},
+  "sellPrice":5500,
+  "name":"Heart Walrus",
+  "tier":5,
+  "id":"723",
+  "chance":0.0002,
+  "icon":"rbxassetid://112565705653798",
+  "description":""
+},
+  {
+  "weight":{
+  "min":180,
+  "bigMin":240,
+  "bigMax":290,
+  "max":220
+},
+  "sellPrice":34000,
+  "name":"Heart Dolphin",
+  "tier":6,
+  "id":"724",
+  "chance":0.000018181818181818183,
+  "icon":"rbxassetid://98923771381477",
+  "description":""
+},
+  {
+  "weight":{
+  "min":10.699999809265137,
+  "bigMin":12.800000190734864,
+  "bigMax":14.699999809265137,
+  "max":12.100000381469727
+},
+  "sellPrice":4500,
+  "name":"Valentine Lion Fish",
+  "tier":5,
+  "id":"725",
+  "chance":0.0002,
+  "icon":"rbxassetid://86246760837024",
+  "description":""
+},
+  {
+  "weight":{
+  "min":7.5,
+  "bigMin":10.600000381469727,
+  "bigMax":12.800000190734864,
+  "max":9.399999618530274
+},
+  "sellPrice":1500,
+  "name":"Valentine Pearl Fish",
+  "tier":4,
+  "id":"726",
+  "chance":0.0006666666666666666,
+  "icon":"rbxassetid://98765051410193",
+  "description":""
+},
+  {
+  "weight":{
+  "min":2.200000047683716,
+  "bigMin":3.299999952316284,
+  "bigMax":4.5,
+  "max":3
+},
+  "sellPrice":60,
+  "name":"Loving Tang",
+  "tier":2,
+  "id":"727",
+  "chance":0.016666666666666668,
+  "icon":"rbxassetid://123549493035356",
+  "description":""
+},
+  {
+  "weight":{
+  "min":0.5,
+  "bigMin":1.2000000476837159,
+  "bigMax":1.600000023841858,
+  "max":1
+},
+  "sellPrice":22,
+  "name":"Elegant Eel",
+  "tier":1,
+  "id":"728",
+  "chance":0.16666666666666667,
+  "icon":"rbxassetid://102655490845984",
+  "description":""
+},
+  {
+  "weight":{
+  "min":0.5,
+  "bigMin":1.100000023841858,
+  "bigMax":1.5,
+  "max":0.800000011920929
+},
+  "sellPrice":400,
+  "name":"Flying Hearts",
+  "tier":3,
+  "id":"729",
+  "chance":0.0025,
+  "icon":"rbxassetid://96282496385745",
+  "description":""
+},
+  {
+  "weight":{
+  "min":2.5,
+  "bigMin":4.099999904632568,
+  "bigMax":4.699999809265137,
+  "max":3.700000047683716
+},
+  "sellPrice":280,
+  "name":"Forever Forehead",
+  "tier":3,
+  "id":"730",
+  "chance":0.0033333333333333337,
+  "icon":"rbxassetid://74782026755873",
+  "description":""
+},
+  {
+  "weight":{
+  "min":7.199999809265137,
+  "bigMin":9.5,
+  "bigMax":11.5,
+  "max":8.699999809265137
+},
+  "sellPrice":400,
+  "name":"Jellyfin",
+  "tier":3,
+  "id":"731",
+  "chance":0.0025,
+  "icon":"rbxassetid://113756591649811",
+  "description":""
+},
+  {
+  "weight":{
+  "min":2.799999952316284,
+  "bigMin":3.9000000953674318,
+  "bigMax":4.800000190734863,
+  "max":3.5
+},
+  "sellPrice":100,
+  "name":"Blushwave",
+  "tier":2,
+  "id":"732",
+  "chance":0.01,
+  "icon":"rbxassetid://115717213749941",
+  "description":""
+},
+  {
+  "weight":{
+  "min":1,
+  "bigMin":1.7999999523162842,
+  "bigMax":2.5,
+  "max":1.600000023841858
+},
+  "sellPrice":20,
+  "name":"Blushfin",
+  "tier":1,
+  "id":"733",
+  "chance":0.25,
+  "icon":"rbxassetid://73275669945741",
+  "description":""
+},
+  {
+  "weight":{
+  "min":1,
+  "bigMin":1.7999999523162842,
+  "bigMax":2.5,
+  "max":1.600000023841858
+},
+  "sellPrice":20,
+  "name":"Peach Bubbler",
+  "tier":1,
+  "id":"734",
+  "chance":0.25,
+  "icon":"rbxassetid://113502002505738",
+  "description":""
+},
+  {
+  "weight":{
+  "min":1.5,
+  "bigMin":2.799999952316284,
+  "bigMax":3.700000047683716,
+  "max":2.0999999046325685
+},
+  "sellPrice":100,
+  "name":"Peach Tailfish",
+  "tier":2,
+  "id":"735",
+  "chance":0.01,
+  "icon":"rbxassetid://127496842939987",
+  "description":""
+},
+  {
+  "weight":{
+  "min":6.199999809265137,
+  "bigMin":8,
+  "bigMax":9.300000190734864,
+  "max":7.5
+},
+  "sellPrice":280,
+  "name":"Strawberry Fish",
+  "tier":3,
+  "id":"736",
+  "chance":0.0033333333333333337,
+  "icon":"rbxassetid://97047068635290",
+  "description":""
+},
+  {
+  "weight":{
+  "min":0.3100000023841858,
+  "bigMin":0.5600000023841858,
+  "bigMax":0.8100000023841858,
+  "max":0.47999998927116396
+},
+  "sellPrice":2000,
+  "name":"Strawberry Pufferfish",
+  "tier":4,
+  "id":"737",
+  "chance":0.0005,
+  "icon":"rbxassetid://81397661663025",
+  "description":""
+},
+  {
+  "weight":{
+  "min":2,
+  "bigMin":3,
+  "bigMax":4,
+  "max":3
+},
+  "sellPrice":0,
+  "name":"Unknown Fish",
+  "tier":1,
+  "id":"738",
+  "chance":0.05,
+  "icon":"",
+  "description":""
+},
+  {
+  "weight":{
+  "min":0.25999999046325686,
+  "bigMin":0.3799999952316284,
+  "bigMax":0.5099999904632568,
+  "max":0.3400000035762787
+},
+  "sellPrice":3000,
+  "name":"Lovtopus",
+  "tier":4,
+  "id":"740",
+  "chance":0.0003333333333333333,
+  "icon":"rbxassetid://102560082182215",
+  "description":""
+},
+  {
+  "weight":{
+  "min":16,
+  "bigMin":24,
+  "bigMax":31,
+  "max":22
+},
+  "sellPrice":5500,
+  "name":"Walrus Bride",
+  "tier":5,
+  "id":"741",
+  "chance":0.00015384615384615385,
+  "icon":"rbxassetid://86768047060655",
+  "description":""
+},
+  {
+  "weight":{
+  "min":16,
+  "bigMin":24,
+  "bigMax":31,
+  "max":22
+},
+  "sellPrice":5500,
+  "name":"Walrus Gentlemen",
+  "tier":5,
+  "id":"742",
+  "chance":0.00015384615384615385,
+  "icon":"rbxassetid://137825373191082",
+  "description":""
+},
+  {
+  "weight":{
+  "min":1400,
+  "bigMin":2300,
+  "bigMax":2800,
+  "max":1900
+},
+  "sellPrice":45000,
+  "name":"Choco Shark",
+  "tier":6,
+  "id":"744",
+  "chance":0.000013333333333333334,
+  "icon":"rbxassetid://108699083842154",
+  "description":""
+},
+  {
+  "weight":{
+  "min":0.3199999928474426,
+  "bigMin":0.5199999809265137,
+  "bigMax":0.6700000166893005,
+  "max":0.4399999976158142
+},
+  "sellPrice":3000,
+  "name":"Cupid Octopus",
+  "tier":4,
+  "id":"745",
+  "chance":0.0003333333333333333,
+  "icon":"rbxassetid://82155168095486",
+  "description":""
+},
+  {
+  "weight":{
+  "min":360000,
+  "bigMin":538000,
+  "bigMax":681000,
+  "max":495000
+},
+  "sellPrice":490000,
+  "name":"Love Nessie",
+  "tier":7,
+  "id":"753",
+  "chance":1.6666666666666668e-7,
+  "icon":"rbxassetid://120503903398099",
+  "description":""
 }
 ],
   "metadata":{
   "format_version":"1.0",
   "game_name":"Fish-It",
-  "total_fish":501,
-  "extracted_at":"2026-02-08T08:13:24Z"
+  "total_fish":533,
+  "extracted_at":"2026-02-15T06:31:54Z"
 }
 }
