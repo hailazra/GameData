@@ -3682,11 +3682,11 @@
   "bigMax":4852,
   "max":3371
 },
-  "sellPrice":135000,
+  "sellPrice":85000,
   "name":"Cavern Dweller",
   "tier":6,
   "id":"352",
-  "chance":0.000008333333333333334,
+  "chance":0.00001,
   "icon":"rbxassetid://110427632040144",
   "description":""
 },
@@ -6341,7 +6341,7 @@
   "name":"Goblin Shark",
   "tier":6,
   "id":"601",
-  "chance":0.00002,
+  "chance":0.000016666666666666669,
   "icon":"rbxassetid://133553385743159",
   "description":""
 },
@@ -7994,12 +7994,27 @@
   "chance":1.6666666666666668e-7,
   "icon":"rbxassetid://120503903398099",
   "description":""
+},
+  {
+  "weight":{
+  "min":360000,
+  "bigMin":538000,
+  "bigMax":681000,
+  "max":495000
+},
+  "sellPrice":490000,
+  "name":"Broken Heart Nessie",
+  "tier":7,
+  "id":"757",
+  "chance":1.6666666666666668e-7,
+  "icon":"rbxassetid://128778303459704",
+  "description":""
 }
 ],
   "metadata":{
   "format_version":"1.0",
   "game_name":"Fish-It",
-  "total_fish":533,
-  "extracted_at":"2026-02-15T06:31:54Z"
+  "total_fish":534,
+  "extracted_at":"2026-02-22T09:20:09Z"
 }
 }
